@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="CodingClub - Practice and solve programming problems">
+
+    <title>CodingClub | Student Coding Portal</title>
+
+    <!-- CSS connection -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="topbar">
+
+        <a href="#" class="brand" onclick="goHome(); return false;">
+
+            <span class="brand-icon">&lt;/&gt;</span>
+
+            <span>
+                Coding<span class="accent">Club</span>
+            </span>
+
+        </a>
+
+        <!-- Login / Logout section -->
+        <div id="user-area"></div>
+
+    </header>
+
+
+    <!-- Main Website Content -->
+    <main id="app" class="container">
+
+        <section class="hero">
+
+            <h1>
+                Welcome to
+                <span>CodingClub</span>
+            </h1>
+
+            <p>
+                Practice coding, solve programming challenges
+                and improve your programming skills.
+            </p>
+
+        </section>
+
+        <!-- Loading message until JavaScript runs -->
+        <div class="empty">
+            Loading CodingClub...
+        </div>
+
+    </main>
+
+
+    <!-- Notification Message -->
+    <div id="toast" class="toast" role="status"
+         aria-live="polite">
+    </div>
+
+
+    <!-- JavaScript connection -->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
